@@ -27,12 +27,14 @@ const SignUp = () => {
       <div className="w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
         <h1 className="text-3xl font-semibold text-center text-gray-300">
           SignUp
-          <span className="text-red-600"> chat-app-by-axe</span>
+          <span className="text-blue-600"> chat-app-by-axe</span>
         </h1>
         <form onSubmit={handleSubmit}>
           <div>
             <label className="label p-2" htmlFor="">
-              <span className="text-base label-text">FullName</span>
+              <span className="text-base label-text text-blue-600">
+                FullName
+              </span>
             </label>
             <input
               type="text"
@@ -46,7 +48,9 @@ const SignUp = () => {
           </div>
           <div>
             <label className="label p-2" htmlFor="">
-              <span className="text-base label-text">Username</span>
+              <span className="text-base label-text text-blue-600">
+                Username
+              </span>
             </label>
             <input
               type="text"
@@ -60,7 +64,9 @@ const SignUp = () => {
           </div>
           <div>
             <label className="label" htmlFor="">
-              <span className="text-base label-text">Password</span>
+              <span className="text-base label-text text-blue-600">
+                Password
+              </span>
             </label>
             <input
               type="password"
@@ -74,7 +80,9 @@ const SignUp = () => {
           </div>
           <div>
             <label className="label" htmlFor="">
-              <span className="text-base label-text">Confirm Password</span>
+              <span className="text-base label-text text-blue-600">
+                Confirm Password
+              </span>
             </label>
             <input
               type="password"
@@ -92,7 +100,7 @@ const SignUp = () => {
           />
           <Link
             to="/login"
-            className="text-sm hover:underline hover:text-green-600 mt-2 inline-block"
+            className="text-sm hover:underline hover:text-blue-900 mt-2 inline-block text-blue-600"
           >
             Already have an account?
           </Link>
