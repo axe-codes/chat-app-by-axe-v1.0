@@ -9,8 +9,6 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    console.log("From handle login", username);
-    console.log("From handle login", password);
     await login(username, password);
   };
   return (
